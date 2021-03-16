@@ -1,0 +1,31 @@
+{
+  "name": "calculadora-js",
+  "version": "1.0.0",
+  "description": "Calculadora criada com teste no Jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start --single-run",
+    "test-dev": "karma start",
+    "test-jasmine": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizpkey/calculadora-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizpkey/calculadora-js/issues"
+  },
+  "homepage": "https://github.com/luizpkey/calculadora-js#readme",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "jasmine": "^3.6.4",
+    "karma": "^6.2.0",
+    "karma-browserify": "^8.0.0",
+    "karma-firefox-launcher": "^2.1.0",
+    "karma-jasmine": "^4.0.1",
+    "watchify": "^4.0.0"
+  }
+}
