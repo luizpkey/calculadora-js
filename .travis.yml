@@ -1,12 +1,11 @@
-addons:
-  firefox: "86.0"
+sudo: required
 language: node_js
 node_js:
   - 'node'
+dist: trusty
+addons:
+  firefox: "latest"
 before_install:
-  echo "Extracting firefox and setting PATH variable..."
-  tar -xjf /tmp/firefox-86.0.tar.bz2 --directory /tmp
-  export PATH="/tmp/firefox:$PATH"
-  echo "Using firefox version `firefox --version`"
-  - "export DISPLAY=:99.0"
-  - sh -e /tmp/firefox/xvfb start
+    # Start a display server where all graphical operations happens in memory
+    - export DISPLAY=:99.0
+    - sh -e /etc/init.d/xvfb start
