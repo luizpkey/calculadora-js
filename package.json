@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/luizpkey/calculadora-js#readme",
   "devDependencies": {
+    "bootstrap": "^5.0.0-beta2",
     "browserify": "^17.0.0",
     "jasmine": "^3.6.4",
     "karma": "^6.2.0",
