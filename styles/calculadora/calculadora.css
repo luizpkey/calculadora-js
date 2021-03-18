@@ -1,0 +1,16 @@
+.kz-btn {
+    width: 55px;
+    margin-bottom: 4px;
+}
+.kz-input-text {
+    width: 173px !important;
+    margin-bottom: 4px;
+}
+
+.form-inline{
+    display: block;
+}
+.form-inline .form-group{
+    display: block;
+    align-items: center;
+}
